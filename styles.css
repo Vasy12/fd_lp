@@ -1,3 +1,43 @@
 @import "./assets/css/reset.css";
+@import "./assets/css/variables.css";
+@import "./assets/css/grid.css";
+@import "./components/header/header.css";
 
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 
+*/
+* {
+    box-sizing: border-box;
+}
+
+.one-line-text-overflow-ellipses {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*
+about us
+*/
+#about-us {
+    position: relative;
+    height: 40vh;
+    background-image: url("./assets/images/bg/Put_Your_Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+
+}
+
+#about-us::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
