@@ -5,6 +5,7 @@
     overflow: hidden;
     color: var(--primary-extra-light-text-color);
     background-color: #00aced;
+    max-height: 500px;
 }
 
 .work-picture {

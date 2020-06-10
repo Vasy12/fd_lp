@@ -1,9 +1,11 @@
 :root {
+    --text-color: #999999;
+
     --accent-color: #e74c3c;
     --primary-extra-light-text-color: white;
     --primary-light-text-color: #f4f5f9;
     --secondary-light-text-color: #cbc6c0;
     --secondary-common-text-color: #999999;
-
+    --primary-title-color: #6a6a6a;
     --transition-duration-value: 0.8s;
 }
