@@ -4,4 +4,6 @@
     --primary-light-text-color: #f4f5f9;
     --secondary-light-text-color: #cbc6c0;
     --secondary-common-text-color: #999999;
+
+    --transition-duration-value: 0.8s;
 }
