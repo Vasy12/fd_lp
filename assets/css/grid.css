@@ -2,20 +2,6 @@
     --gutter-width: 30px;
 }
 
-.no-max-w {
-    max-width: none;
-}
-
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-}
 
 .container {
     width: 100%;
@@ -29,6 +15,22 @@
     margin: 0 calc(var(--gutter-width) / -2);
     flex-flow: row wrap;
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
 
 .col, .col-1,
 .col-2,
@@ -463,3 +465,5 @@
         max-width: var(--width-value);
     }
 }
+
+
