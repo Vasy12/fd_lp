@@ -2,6 +2,7 @@
     font-family: "Source Sans Pro", sans-serif;
     font-size: 14px;
     line-height: 29px;
+    padding-bottom: 0;
 }
 
 .history__image {
@@ -32,14 +33,55 @@
 }
 
 #history .history__link {
-    display: inline-block;
-    padding: 22px 42px;
+    display: block;
+    width: 225px;
+    height: 56px;
     border-radius: 3px;
     background-color: var(--accent-color);
     color: var(--primary-extra-light-text-color);
     box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
     text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 14px;
+    text-align: center;
+    line-height: 56px;
     letter-spacing: 0.12px;
+    margin-top: 49px;
+}
+
+@media screen and (max-width: 992px){
+    .history__image {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #history {
+        padding-top: 10%;
+    }
+
+    #history .row {
+        flex-flow: row-reverse wrap;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .history-image-container {
+        display: none;
+    }
+
+    #history article {
+        margin: auto;
+    }
+
+    #history .history__title {
+        padding-left: 10px;
+        font-size: 2.5rem;
+    }
+
+    .history__title::before {
+        right: 10px;
+        height: 29px;
+    }
 }
