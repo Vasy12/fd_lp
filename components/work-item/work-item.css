@@ -86,11 +86,15 @@
 
 .item-info__title {
     font-size: 2rem;
+    line-height: 1.1em;
+    height: 1.1em;
     text-transform: uppercase;
     max-width: 100%;
 }
 
-
+.item-info__title:empty::before {
+    content: 'blog title';
+}
 
 .item-info__title_transition-margins {
     margin: 50px 0;
