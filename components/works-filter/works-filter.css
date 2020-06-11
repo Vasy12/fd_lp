@@ -1,0 +1,32 @@
+
+.works-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.work-category-item {
+    display: block;
+    text-transform: uppercase;
+    padding: 20px 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.filter-input-radio {
+    display: none;
+}
+
+
+.work-category-item + .work-category-item::before {
+    content: '/';
+    margin-right: 15px;
+}
+
+.filter-input-radio:checked ~ .works-filter__text {
+    color: var(--accent-color);
+}
+
