@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
 <header id="page-header">
     <div class="container header-container ">
         <a href="/" class="logo-link">
@@ -52,47 +53,43 @@
         </div>
     </div>
 
-    <svg class="team-map" baseProfile="full"
-         viewBox="0 0 1920 750"
-         xmlns="http://www.w3.org/2000/svg">
-        <path class="bg"
-              d="M 0 750 L 0 680 Q 210 540 405 476 Q 520 440 627 430 Q 730 420 850 420 C 970 420 970 450 1070 440 Q 1190 430 1290 390 C 1420 350 1680 270 1920 0 L 1920 750 z"></path>
-        <path class="team-curve"
-              d="M 0 680 Q 210 540 405 476 Q 520 440 627 430 Q 730 420 850 420 C 970 420 970 450 1070 440 Q 1190 430 1290 390 C 1420 350 1680 270 1920 0 "></path>
-
+    <svg xmlns="http://www.w3.org/2000/svg" class="team-map" viewBox="0 0 1920 650">
         <defs>
-            <pattern id="image1" x="0%" y="0%" height="100%" width="100%"
-                     viewBox="0 0 512 512">
-                <image x="0%" y="0%" width="512" height="512"
-                       xlink:href="./assets/images/team/1.jpg"></image>
+
+            <pattern id="image1" x="0" y="0" viewBox="0 0 56 56" height="100%" width="100%">
+                <image x="0" y="0" width="56" height="56" xlink:href="./assets/images/team/1.jpg"></image>
             </pattern>
-            <pattern id="image2" x="0%" y="0%" height="100%" width="100%"
-                     viewBox="0 0 512 512">
-                <image x="0%" y="0%" width="512" height="512"
-                       xlink:href="./assets/images/team/2.jpg"></image>
+            <pattern id="image2" x="0" y="0" viewBox="0 0 56 56" height="100%" width="100%">
+                <image x="0" y="0" width="56" height="56" xlink:href="./assets/images/team/2.jpg"></image>
             </pattern>
-            <pattern id="image3" x="0%" y="0%" height="100%" width="100%"
-                     viewBox="0 0 512 512">
-                <image x="0%" y="0%" width="512" height="512"
-                       xlink:href="./assets/images/team/3.jpg"></image>
+            <pattern id="image3" x="0" y="0" viewBox="0 0 56 56" height="100%" width="100%">
+                <image x="0" y="0" width="56" height="56" xlink:href="./assets/images/team/3.jpg"></image>
             </pattern>
-            <pattern id="image4" x="0%" y="0%" height="100%" width="100%"
-                     viewBox="0 0 512 512">
-                <image x="0%" y="0%" width="512" height="512"
-                       xlink:href="./assets/images/team/4.jpg"></image>
+            <pattern id="image4" x="0" y="0" viewBox="0 0 56 56" height="100%" width="100%">
+                <image x="0" y="0" width="56" height="56" xlink:href="./assets/images/team/4.jpg"></image>
             </pattern>
-            <pattern id="image5" x="0%" y="0%" height="100%" width="100%"
-                     viewBox="0 0 512 512">
-                <image x="0%" y="0%" width="512" height="512"
-                       xlink:href="./assets/images/team/5.jpg"></image>
+            <pattern id="image5" x="0" y="0" viewBox="0 0 56 56" height="100%" width="100%">
+                <image x="0" y="0" width="56" height="56" xlink:href="./assets/images/team/5.jpg"></image>
             </pattern>
         </defs>
-        <circle class="team-item-circle" cx="405" cy="476" r="50" fill="url(#image1)"/>
-        <circle class="team-item-circle" cx="627" cy="430" r="50" fill="url(#image2)"/>
-        <circle class="team-item-circle" cx="850" cy="420" r="50" fill="url(#image3)"/>
-        <circle class="team-item-circle" cx="1070" cy="440" r="50" fill="url(#image4)"/>
-        <circle class="team-item-circle" cx="1290" cy="390" r="50" fill="url(#image5)"/>
+
+        <path d="M 0 650 L 0 510 Q 195 426 405 374 Q 633 325 700 320 Q 846 307 961 317 S 1134 358 1241 357 Q 1385 360 1522 311 Q 1812 182 1920 0 L 1920 650 z"
+              fill="#e74c3c" fill-opacity="0.1"></path>
+
+        <path d="M 0 510 Q 195 426 405 374 S 633 325 700 320 S 846 307 961 317 S 1134 358 1241 357 S 1385 360 1522 311 S 1812 182 1920 0"
+              stroke="#e74c3c" stroke-width="6" fill="transparent"
+              fill-opacity="0"></path>
+        <circle class="team-item-circle" cx="405" cy="374" r="28" fill="url(#image1)"/>
+        <circle class="team-item-circle" cx="700" cy="320" r="28" fill="url(#image2)"/>
+        <circle class="team-item-circle" cx="961" cy="317" r="28" fill="url(#image3)"/>
+        <circle class="team-item-circle" cx="1241" cy="357" r="28" fill="url(#image4)"/>
+        <circle class="team-item-circle" cx="1522" cy="311" r="28" fill="url(#image5)"/>
+        <!--<path d="M 0 510 Q 195 426 405 374 Q 633 325 700 320 Q 846 307 961 317 C 1071 328 1134 358 1241 357 Q 1385 360 1522 311 Q 1812 182 1920 0 "
+                  stroke="#e74c3c" stroke-width="6" fill="transparent"
+                  fill-opacity="0"></path>-->
+
     </svg>
+
 </section>
 
 <section id="works" class="section">
