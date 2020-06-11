@@ -1,0 +1,45 @@
+#history {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+.history__image {
+    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding-right: 63px;
+}
+
+#history .history__title {
+    text-align: left;
+    letter-spacing: 3.6px;
+    padding-left: 35px;
+    line-height: 100%;
+}
+
+.history__title::before {
+    content: '';
+    position: relative;
+    top: 6px;
+    right: 35px;
+    width: 6px;
+    height: 36px;
+    display: inline-block;
+    background-color: var(--accent-color);
+    z-index: -1;
+}
+
+#history .history__link {
+    display: inline-block;
+    padding: 22px 42px;
+    border-radius: 3px;
+    background-color: var(--accent-color);
+    color: var(--primary-extra-light-text-color);
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.12px;
+}
