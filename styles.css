@@ -4,8 +4,10 @@
 @import "./components/header/header.css";
 @import "./components/work-item/work-item.css";
 @import "./components/blog-item/blog-item.css";
+@import "./components/history/history.css";
 @import "./components/works-filter/works-filter.css";
 @import "./components/team-section/team-section.css";
+
 
 :root {
     font-family: 'Open Sans', sans-serif;
