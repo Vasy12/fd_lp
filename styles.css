@@ -4,6 +4,8 @@
 @import "./components/header/header.css";
 @import "./components/work-item/work-item.css";
 @import "./components/blog-item/blog-item.css";
+@import "./components/works-filter/works-filter.css";
+@import "./components/team-section/team-section.css";
 
 :root {
     font-family: 'Open Sans', sans-serif;
@@ -48,7 +50,7 @@ about us
     padding: 150px 0;
 }
 
-#works, #blog {
+#works, #blog, #team {
     padding-bottom: 0;
 }
 
@@ -71,13 +73,6 @@ about us
     text-align: center;
 }
 
-.work-category-item > input {
-    display: none;
-}
-
-.work-category-item + .work-category-item::before {
-    content: '/';
-}
 
 .section__hr {
     border: 4px solid var(--accent-color);
@@ -108,9 +103,4 @@ about us
 .section__hr::before {
     right: 20px;
 }
-
-.works-filter {
-    text-align: center;
-}
-
 
