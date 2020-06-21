@@ -10,11 +10,28 @@
     padding: 0 calc(var(--gutter-width) / 2);
 }
 
+
 .row {
     display: flex;
     margin: 0 calc(var(--gutter-width) / -2);
     flex-flow: row wrap;
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
 
 .col, .col-1,
 .col-2,
@@ -449,3 +466,5 @@
         max-width: var(--width-value);
     }
 }
+
+

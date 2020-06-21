@@ -1,9 +1,12 @@
 :root {
-    --accent-color: #e74c3c;
+    --text-color: #999999;
+
+    --accent-color: rgb(231, 76, 60);
+
+    --primary-extra-light-text-color: white;
     --primary-light-text-color: #f4f5f9;
     --secondary-light-text-color: #cbc6c0;
     --secondary-common-text-color: #999999;
-
     --primary-title-color: #6a6a6a;
-    --primary-extra-light-text-color: white;
+    --transition-duration-value: 3s;
 }

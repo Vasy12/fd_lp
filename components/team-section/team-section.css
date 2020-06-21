@@ -1,0 +1,51 @@
+#team {
+    background-image: url('./../../assets/images/bg/team-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+#team .team-section__title {
+    color: white;
+}
+
+#team::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #202020;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.team-curve {
+    stroke: var(--accent-color);
+    stroke-width: 5px;
+    fill: transparent;
+}
+
+
+
+.team-map {
+    display: block;
+    width: 100%;
+    margin-top: -10%;
+}
+
+
+.team-item-circle {
+    stroke: var(--accent-color);
+    stroke-width: 4px;
+}
+
+
+.bg {
+    fill: rgba(231, 76, 60, 0.1);
+}
+
+
